@@ -35,7 +35,7 @@ const Admin = () => {
             <h2>{post.title}</h2>
             <div className="actions">
               <Link className="btn edit-btn">Editar</Link>
-              <Link className="btn delete-btn">Excluir</Link>
+              <button className="btn delete-btn">Excluir</button>
             </div>
           </div>
         ))
