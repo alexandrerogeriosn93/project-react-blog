@@ -4,8 +4,6 @@ import { useNavigate, useParams } from "react-router-dom";
 
 import blogFetch from "../axios/config";
 
-import "./EditPost.css";
-
 const EditPost = () => {
   const navigate = useNavigate();
   const [title, setTitle] = useState();
